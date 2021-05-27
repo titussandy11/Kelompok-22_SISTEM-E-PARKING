@@ -14,3 +14,15 @@ def space():
     print("==========================================================");
     sleep(1)
     print()
+
+# LOADING
+def wait():
+    print("[MOHON TUNGGU SEBENTAR]");
+    sleep(0.25)
+    print(".", end=" ");
+    sleep(0.25)
+    print(".", end=" ");
+    sleep(0.25)
+    print(".");
+    sleep(0.25)
+    print()
