@@ -100,3 +100,9 @@ def perhitungan_mobil(durasi):
     elif durasi < jam1_mobil:
         total = biaya1_mobil
     return total
+
+# DEKLARASI VARIABEL
+motor = [1 for i in range(slot_motor)]
+mobil = [1 for j in range(slot_mobil)]
+start_motor = [0 for i in range(slot_motor)]
+start_mobil = [0 for i in range(slot_mobil)]
