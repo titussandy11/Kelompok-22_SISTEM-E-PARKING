@@ -48,6 +48,7 @@ def slot_parkir(motor_count, mobil_count):
     print("[SLOT PARKIR TERSEDIA]")
     print("Mobil =", mobil_count)
     print("Motor =", motor_count)
+    
 
 # MENGHITUNG JUMLAH SLOT PARKIR YANG KOSONG
 def count_motor(x):
@@ -100,6 +101,7 @@ def perhitungan_mobil(durasi):
     elif durasi < jam1_mobil:
         total = biaya1_mobil
     return total
+
 
 # DEKLARASI VARIABEL
 motor = [1 for i in range(slot_motor)]
@@ -169,3 +171,35 @@ while (loop < 1):
             print("[MOHON MAAF SILAHKAN COBA LAGI]")
             space()
                 
+                
+    elif sistem == 2:
+        jenis = int(input("Tekan 1 untuk motor atau 2 untuk mobil. \n"))
+        motor_count = count_motor(motor)
+        mobil_count = count_mobil(mobil)
+        space()
+        wait()
+        if jenis == 1 and motor_count < slot_motor:
+            slot = int(input("Silahkan masukkan slot parkir Anda: \n")) - 1
+            if motor[slot] == 0:
+                motor[slot] = motor[slot] + 1
+                end_motor = time.time()
+                durasi = end_motor - start_motor[slot]
+                print("Anda telah parkir selama", durasi, "detik")
+                total = perhitungan_motor(durasi)
+                print("Biaya parkir sebesar Rp." + total)
+                space()
+                bayar = input("Silahkan tekan 1 untuk pembayaran cash atau 2 untuk pembayaran menggunakan E-Money")
+                if bayar == '1':
+                    print('Silahkan bayarkan kepada petugas yang ada di loket keluar')
+                elif bayar == '2':
+                    print('Tekan enter untuk pembayaran dengan kartu E-Money.')
+                else :
+                    print('ERROR')
+                print()
+                print("[TERIMAKASIH, HATI-HATI DI JALAN]");
+                winsound.PlaySound("terima kasih.wav", winsound.SND_ASYNC)
+                space()
+            else:
+                print()
+                print("[MOHON MAAF SILAHKAN COBA LAGI]")
+                space()
