@@ -140,5 +140,31 @@ while (loop < 1):
                 start_motor[slot] = time.time()
 
             else:
-                print("Menghubungi Operator")
+                print("Menghubungi Operator...")
                 space()
+                
+    elif jenis == 2 and mobil_count != 0:
+            bantuan = int(input("Silahkan tekan 1 untuk cetak karcis atau 2 untuk bantuan. \n"))
+            space()
+            if bantuan == 1:
+                check = 0
+                while check < slot_mobil:
+                    if mobil[check] == 1:
+                        slot = check
+                        check = 999
+                    check = check + 1
+                mobil[slot] = mobil[slot] - 1
+                print("[TERIMAKASIH]\nAnda parkir pada slot", str(slot + 1))
+                space()
+                start_mobil[slot] = time.time()
+            else :
+                print("Menghubungi Operator...")
+                space()
+
+        elif mobil_count == 0 or motor_count == 0:
+            print("Mohon maaf parkiran telah penuh.")
+            space()
+            
+        else:
+            print("[MOHON MAAF SILAHKAN COBA LAGI]")
+            space()
