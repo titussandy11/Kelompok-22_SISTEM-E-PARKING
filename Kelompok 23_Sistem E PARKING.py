@@ -203,3 +203,36 @@ while (loop < 1):
                 print()
                 print("[MOHON MAAF SILAHKAN COBA LAGI]")
                 space()
+                
+        elif jenis == 2 and mobil_count < slot_mobil:
+            slot = int(input("Silahkan masukkan slot parkir Anda  : \n")) - 1
+            var = mobil[slot] == 0
+            mobil[slot] = mobil[slot] + 1
+            end_mobil = time.time()
+            durasi = end_mobil - start_mobil[slot]
+            print("Anda telah parkir selama", durasi, "detik")
+            total = perhitungan_mobil(durasi)
+            print("Biaya parkir sebesar Rp." + total)
+            space()
+            metode_pembayaran = input("Silahkan tekan 1 untuk pembayaran cash atau 2 untuk pembayaran dengan kartu E-money \n")
+            if metode_pembayaran == '1' :
+                input("Silahkan bayarkan kepada petugas yang ada di loket keluar.")
+                print()
+                print("[TERIMAKASIH, HATI-HATI DI JALAN]");
+                winsound.PlaySound("terima kasih.wav", winsound.SND_ASYNC)
+                space()
+            elif metode_pembayaran == '2' :
+                input("Tekan enter untuk pembayaran dengan kartu E-Money.")
+                print()
+                print("[TERIMAKASIH, HATI-HATI DI JALAN]");
+                winsound.PlaySound("terima kasih.wav", winsound.SND_ASYNC)
+                space()
+            else :
+                print('ERROR, SILAHKAN COBA LAGI')
+            space()
+        else:
+            print("[MOHON MAAF SILAHKAN COBA LAGI]")
+            space()
+    else:
+        print("[MOHON MAAF SILAHKAN COBA LAGI]")
+        space()                
