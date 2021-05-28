@@ -142,8 +142,8 @@ while (loop < 1):
             else:
                 print("Menghubungi Operator...")
                 space()
-                
-    elif jenis == 2 and mobil_count != 0:
+
+        elif jenis == 2 and mobil_count != 0:
             bantuan = int(input("Silahkan tekan 1 untuk cetak karcis atau 2 untuk bantuan. \n"))
             space()
             if bantuan == 1:
@@ -168,3 +168,4 @@ while (loop < 1):
         else:
             print("[MOHON MAAF SILAHKAN COBA LAGI]")
             space()
+                
