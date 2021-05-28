@@ -106,3 +106,39 @@ motor = [1 for i in range(slot_motor)]
 mobil = [1 for j in range(slot_mobil)]
 start_motor = [0 for i in range(slot_motor)]
 start_mobil = [0 for i in range(slot_mobil)]
+
+
+# PROGRAM UTAMA
+loop = 0
+while (loop < 1):
+    sistem = int(input("Tekan 1 untuk masuk atau 2 untuk keluar. \n"))
+    space()
+    wait()
+    print()
+    if sistem == 1:
+        motor_count = count_motor(motor)
+        mobil_count = count_mobil(mobil)
+        slot_parkir(motor_count, mobil_count)
+        print()
+        print("[SELAMAT DATANG]")
+        winsound.PlaySound("selamat datang.wav", winsound.SND_ASYNC)
+        jenis = int(input("Tekan 1 untuk motor atau 2 untuk mobil. \n"))
+        space()
+
+        if jenis == 1 and motor_count != 0:
+            bantuan = int(input("Silahkan tekan 1 untuk cetak karcis atau 2 untuk bantuan. \n"))
+            if bantuan == 1:
+                check = 0
+                while check < slot_motor:
+                    if motor[check] == 1:
+                        slot = check
+                        check = 999
+                    check = check + 1
+                motor[slot] = motor[slot] - 1
+                print("[TERIMAKASIH]\nAnda parkir pada slot", str(slot + 1))
+                space()
+                start_motor[slot] = time.time()
+
+            else:
+                print("Menghubungi Operator")
+                space()
