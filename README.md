@@ -34,7 +34,7 @@ Merupakan berkas yang digunakan sebagai acuan dalam pembuatan program "Sistem E-
 
 Berkas "README.md"
 
-Merupakan penjelasan singkat dari isi repository.
+Merupakan penjelasan singkat dari isi repository
 
 
 
