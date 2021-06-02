@@ -117,12 +117,14 @@ while (loop < 1):
     space()
     wait()
     print()
+    #Program menampilkan pilihan "masuk" atau "keluar"
     if sistem == 1:
         motor_count = count_motor(motor)
         mobil_count = count_mobil(mobil)
         slot_parkir(motor_count, mobil_count)
         print()
         print("[SELAMAT DATANG]")
+        #Mengimport efek suara "selamat datang"
         winsound.PlaySound("selamat datang.wav", winsound.SND_ASYNC)
         jenis = int(input("Tekan 1 untuk motor atau 2 untuk mobil. \n"))
         space()
@@ -141,8 +143,11 @@ while (loop < 1):
                 space()
                 start_motor[slot] = time.time()
 
-            else:
+            elif bantuan == 2
                 print("Menghubungi Operator...")
+                space()
+            else : 
+                print('Silahkan coba lagi')
                 space()
 
         elif jenis == 2 and mobil_count != 0:
