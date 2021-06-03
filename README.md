@@ -43,3 +43,4 @@ Merupakan penjelasan singkat dari isi repository
 - Disk Space 2.5 GB and another 1 GB For caches
 - Operating system : Microsoft windows 8 or later, macOS 10.13 or later, and any Linux
 - Python version 3.6 or newer
+- Pycharm 2020 
