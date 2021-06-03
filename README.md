@@ -14,11 +14,11 @@ Oleh karena itu, informasi mengenai ketersediaan ruang parkir menjadi sangat pen
 
 Berkas Diagram Alir Program
 
-  Merupakan lampiran berupa diagram alir yang menjelaskkan cara kerja program.
+Merupakan lampiran berupa diagram alir yang menjelaskkan cara kerja program.
 
 Berkas Laporan Tugas Besar Tahap 1
 
-  Merupakan berkas berisi latar belakang, basis, diagram alir, fitur program, keunggulan program, dan potensi masa depan program yang telah dibuat oleh kelompok 22 dan telah   asistensikan kepada asisten laboraturium POSI.
+Merupakan berkas berisi latar belakang, basis, diagram alir, fitur program, keunggulan program, dan potensi masa depan program yang telah dibuat oleh kelompok 22 dan telah   asistensikan kepada asisten laboraturium POSI.
 
 Berkas Program
 
@@ -36,5 +36,8 @@ Berkas "README.md"
 
 Merupakan penjelasan singkat dari isi repository
 
+**System Requirements**
 
+- 4 GB RAM
+- Intel® Core™ i3 processor or AMD® Ryzen 3 processor
 
