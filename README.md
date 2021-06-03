@@ -40,4 +40,6 @@ Merupakan penjelasan singkat dari isi repository
 
 - 4 GB RAM
 - Intel® Core™ i3 processor or AMD® Ryzen 3 processor
-
+- Disk Space 2.5 GB and another 1 GB For caches
+- Operating system : Microsoft windows 8 or later, macOS 10.13 or later, and any Linux
+- Python 3.6 or newer
