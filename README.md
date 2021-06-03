@@ -10,15 +10,15 @@ Selain itu, hal ini sangat tidak efektif karena memakan waktu lama bagi pengemud
 Oleh karena itu, informasi mengenai ketersediaan ruang parkir menjadi sangat penting bagi setiap pengendara yang akan memarkirkan kendaraannya, mengingat sudah demikian kompleksnya masalah sistem parkir khususnya di fasilitas-fasilitas umum.
 
 
-Repository 
+**Repository** 
 
 Berkas Diagram Alir Program
 
-Merupakan lampiran berupa diagram alir yang menjelaskkan cara kerja program.
+  Merupakan lampiran berupa diagram alir yang menjelaskkan cara kerja program.
 
 Berkas Laporan Tugas Besar Tahap 1
 
-Merupakan berkas berisi latar belakang, basis, diagram alir, fitur program, keunggulan program, dan potensi masa depan program yang telah dibuat oleh kelompok 22 dan telah asistensikan kepada asisten laboraturium POSI.
+  Merupakan berkas berisi latar belakang, basis, diagram alir, fitur program, keunggulan program, dan potensi masa depan program yang telah dibuat oleh kelompok 22 dan telah   asistensikan kepada asisten laboraturium POSI.
 
 Berkas Program
 
