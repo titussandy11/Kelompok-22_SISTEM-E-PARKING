@@ -44,3 +44,21 @@ Merupakan penjelasan singkat dari isi repository
 - Operating system : Microsoft windows 8 or later, macOS 10.13 or later, and any Linux
 - Python version 3.6 or newer
 - Pycharm 2020 
+
+**Penjelasan Singkat Program**
+Program ini dapat digunakan untuk memesan tempat parkir dan membayar biaya parkir tanpa memasuki area parkir.
+
+Pengguna bisa melakukan pemesanan tempat parkir dengan mengikuti langkah-langkah berikut:
+1. Mulai membuka dan menjalankan program sampai muncul pilihan pertama.
+2. Memilih pilihan '1' pada pilihan awal untuk masuk atau keluar.
+3. Memilih pilihan '1' atau '2' sesuai kendaraan pengguna pada pilihan mobil atau motor.
+4. Memilih pilihan '1' untuk memesan tempat parkir dan mencetak karcis parkir atau '2' untuk menghubungi petugas.
+5. Apabila tempat parkir tersedia, program akan mencetak karcis yang menampilkan kode tempat parkir pesanan pengguna dan apabila tempat parkir tidak tersedia, program akan menampilkan pesan bahwa tempat parkir telah penuh.
+
+Pengguna bisa melakukan transakasi pembayaran tempat parkir dengan mengikuti langkah-langkah berikut:
+1. Mulai membuka dan menjalankan program sampai muncul pilihan pertama.
+2. Memilih pilihan '2' pada pilihan awal untuk masuk atau keluar.
+3. Memilih pilihan '1' atau '2' sesuai kendaraan pengguna pada pilihan mobil atau motor.
+4. Memasukkan kode tempat parkir yang digunakan pengguna.
+5. Program akan menampilkan durasi parkir dan biaya parkir pengguna.
+6. Memilih pilihan '1' untuk membayar secara tunai di loket parkir atau '2' untuk membayar menggunakan e-money.
