@@ -143,7 +143,7 @@ while (loop < 1):
                 space()
                 start_motor[slot] = time.time()
 
-            elif bantuan == 2
+            elif bantuan == 2:
                 print("Menghubungi Operator...")
                 space()
             else : 
@@ -193,7 +193,7 @@ while (loop < 1):
                 durasi = end_motor - start_motor[slot]
                 print("Anda telah parkir selama", durasi, "detik")
                 total = perhitungan_motor(durasi)
-                print("Biaya parkir sebesar Rp." + str(total)
+                print("Biaya parkir sebesar Rp." + str(total))
                 space()
                 # Program menampilkan pilihan pembayaran dengan cash atau dengan kartu E-money
                 bayar = input("Silahkan tekan 1 untuk pembayaran cash atau 2 untuk pembayaran menggunakan E-Money")
