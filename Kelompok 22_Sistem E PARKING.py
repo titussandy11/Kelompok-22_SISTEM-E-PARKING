@@ -221,7 +221,7 @@ while (loop < 1):
             durasi = end_mobil - start_mobil[slot]
             print("Anda telah parkir selama", durasi, "detik")
             total = perhitungan_mobil(durasi)
-            print("Biaya parkir sebesar Rp." + total)
+            print("Biaya parkir sebesar Rp." + str(total))
             space()
             metode_pembayaran = input("Silahkan tekan 1 untuk pembayaran cash atau 2 untuk pembayaran dengan kartu E-money \n")
             if metode_pembayaran == '1' :
