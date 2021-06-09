@@ -179,7 +179,7 @@ while (loop < 1):
         mobil_count = count_mobil(mobil)
         space()
         wait()
-        # Program akan menghitung biaya parkir motor sesuai slot parkir yang diinput
+        # Program akan meminta pengguna menginput slot parkir motor
         if jenis == 1 and motor_count < slot_motor:
             slot = int(input("Silahkan masukkan slot parkir Anda: \n")) - 1
             if motor[slot] == 0:
@@ -188,16 +188,16 @@ while (loop < 1):
                 durasi = end_motor - start_motor[slot]
                 print("Anda telah parkir selama", durasi, "detik")
                 total = perhitungan_motor(durasi)
-                print("Biaya parkir sebesar Rp." + str(total)
+                print("Biaya parkir sebesar Rp." + str(total))
                 space()
-                # Program menampilkan pilihan pembayaran dengan cash atau dengan kartu E-money
-                bayar = input("Silahkan tekan 1 untuk pembayaran cash atau 2 untuk pembayaran menggunakan E-Money")
+                #Program menampilkan pilihan pembayaran dengan cash atau dengan kartu E-money
+                bayar = input("Silahkan tekan 1 untuk pembayaran cash atau 2 untuk pembayaran menggunakan E-Money. \n")
                 if bayar == '1':
                     print('Silahkan bayarkan kepada petugas yang ada di loket keluar')
                 elif bayar == '2':
                     print('Tekan enter untuk pembayaran dengan kartu E-Money.')
                 else :
-                    print('ERROR')
+                    print('ERROR, SILAHKAN COBA LAGI')
                 print()
                 print("[TERIMAKASIH, HATI-HATI DI JALAN]");
                 # Mengimpor efek suara "terima kasih"
