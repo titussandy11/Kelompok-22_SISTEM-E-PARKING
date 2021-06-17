@@ -50,14 +50,14 @@ def slot_parkir(motor_count, mobil_count):
     print("Motor =", motor_count)
     
 
-# MENGHITUNG JUMLAH SLOT PARKIR YANG KOSONG
+# MENGHITUNG JUMLAH SLOT PARKIR MOTOR YANG KOSONG
 def count_motor(x):
     motor_count = 0
     for i in range(slot_motor):
         motor_count = motor_count + x[i]
     return motor_count
 
-
+# MENGHITUNG JUMLAH SLOT PARKIR MOTOR YANG KOSONG
 def count_mobil(y):
     mobil_count = 0
     for i in range(slot_mobil):
@@ -66,6 +66,8 @@ def count_mobil(y):
 
 
 # KALKULASI HARGA
+
+# Perhitungan total biaya parkir motor
 def perhitungan_motor(durasi):
     harga = 0
     harga1 = 0
@@ -85,7 +87,7 @@ def perhitungan_motor(durasi):
 
 
 
-
+# Perhitungan total biaya parkir mobil
 def perhitungan_mobil(durasi):
     harga = 0
     harga1 = 0
