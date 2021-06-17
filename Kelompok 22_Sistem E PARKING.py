@@ -131,6 +131,7 @@ while (loop < 1):
         jenis = int(input("Tekan 1 untuk motor atau 2 untuk mobil. \n"))
         space()
 
+        #Program menampilkan pilihan "cetak karcis" atau "bantuan"
         if jenis == 1 and motor_count != 0:
             bantuan = int(input("Silahkan tekan 1 untuk cetak karcis atau 2 untuk bantuan. \n"))
             if bantuan == 1:
